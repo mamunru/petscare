@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:petscare/binding/init.dart';
 import 'package:petscare/route/appRoute.dart';
 import 'package:petscare/route/routeName.dart';
 import 'package:petscare/theme/appTheme.dart';
 import 'package:petscare/theme/themeController.dart';
 
 void main() {
+  InitialBindings().dependencies();
   runApp(MyApp());
 }
 
