@@ -9,7 +9,7 @@ import 'package:petscare/controller/userController.dart';
 import 'package:petscare/route/routeName.dart';
 
 class LoginPage extends StatelessWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  const LoginPage({super.key});
 
   void _loginWithGoogle() {
     // TODO: Implement Google login
